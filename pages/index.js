@@ -8,21 +8,21 @@ import {
   Button,
   List,
   ListItem,
-  Icon
-} from '@chakra-ui/react'
+  Icon,
+} from '@chakra-ui/react';
 
-import NextLink from 'next/link'
-import Section from '../components/section'
-import Paragraph from '../components/paragraph'
-import Layout from '../components/layouts/article'
-import { BioSection, BioYear } from '../components/bio'
-import { ChevronRightIcon } from '@chakra-ui/icons'
+import NextLink from 'next/link';
+import Section from '../components/section';
+import Paragraph from '../components/paragraph';
+import Layout from '../components/layouts/article';
+import { BioSection, BioYear } from '../components/bio';
+import { ChevronRightIcon } from '@chakra-ui/icons';
 import {
   IoLogoTwitter,
   IoLogoLinkedin,
   IoLogoGithub,
-  IoLogoDiscord
-} from 'react-icons/io5'
+  IoLogoDiscord,
+} from 'react-icons/io5';
 
 const Home = () => {
   return (
@@ -67,10 +67,9 @@ const Home = () => {
             Work
           </Heading>
           <Paragraph padding="10px">
-            I'm a learner and always Ravenous for new Skills!
-            I like building & designing web apps, 
-            exploring scalability problems and improving performance. 
-            I also love to create animations and illustrations.
+            I&apos;m a learner and always Ravenous for new Skills! I like building &
+            designing web apps, exploring scalability problems and improving
+            performance. I also love to create animations and illustrations.
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="https://drive.google.com/file/d/1BaC76HM5CiPSac8K26GKkz5sfYA011CT/view?usp=sharing">
@@ -100,11 +99,12 @@ const Home = () => {
           </BioSection>
           <BioSection>
             <BioYear>2025</BioYear>
-            Completed Master&apos;s in Computer Applications at Manipal University Jaipur
+            Completed Master&apos;s in Computer Applications at Manipal
+            University Jaipur
           </BioSection>
         </Section>
-        
-           <Section delay={0.5}>
+
+        <Section delay={0.5}>
           <Heading as="h3" variant="section-title">
             Achievements
           </Heading>
@@ -114,7 +114,7 @@ const Home = () => {
           </BioSection>
           <BioSection>
             <BioYear>2019</BioYear>
-            Won first prize in Microsoft Hackathon 
+            Won first prize in Microsoft Hackathon
           </BioSection>
         </Section>
 
@@ -124,8 +124,7 @@ const Home = () => {
           </Heading>
           <Paragraph>
             Basketball, Cricket, {''}
-          
-             Drawing, Animation
+            Drawing, Animation
           </Paragraph>
         </Section>
         <Section delay={0.3}>
@@ -193,7 +192,7 @@ const Home = () => {
         </Section>
       </Container>
     </Layout>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

@@ -1,13 +1,13 @@
-import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
-import Section from '../components/section'
-import { GridItem } from '../components/grid-item'
-import Layout from '../components/layouts/article'
-import thumbPromise from '../public/images/promise-blog.png'
-import thumbFirstBlog from '../public/images/react-first-blog.png'
-import thumbReactHooks from '../public/images/hooks-reactjs.png'
-import thumbComponents from '../public/images/components-react.png'
+import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react';
+import Section from '../components/section';
+import { GridItem } from '../components/grid-item';
+import Layout from '../components/layouts/article';
+import thumbPromise from '../public/images/promise-blog.png';
+import thumbFirstBlog from '../public/images/react-first-blog.png';
+import thumbReactHooks from '../public/images/hooks-reactjs.png';
+import thumbComponents from '../public/images/components-react.png';
 
-import React from 'react'
+import React from 'react';
 
 const Posts = () => {
   return (
@@ -50,7 +50,7 @@ const Posts = () => {
         </Section>
       </Container>
     </Layout>
-  )
-}
+  );
+};
 
-export default Posts
+export default Posts;

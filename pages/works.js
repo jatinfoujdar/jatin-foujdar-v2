@@ -3,18 +3,18 @@ import {
   Heading,
   SimpleGrid,
   Divider,
-  Link
-} from '@chakra-ui/react'
-import Section from '../components/section'
-import { WorkGridItem } from '../components/grid-item'
-import Layout from '../components/layouts/article'
+  Link,
+} from '@chakra-ui/react';
+import Section from '../components/section';
+import { WorkGridItem } from '../components/grid-item';
+import Layout from '../components/layouts/article';
 
 // Updated image imports
-import thumbAirbnb from '../public/images/airbnb-ios.png'
-import thumbPokemon from '../public/images/pokemon-ios.png'
-import thumbSwiggy from '../public/images/swiggy-ios.png'
-import thumbUber from '../public/images/uber.png'
-import thumbRive from '../public/images/rive.png'
+import thumbAirbnb from '../public/images/airbnb-ios.png';
+import thumbPokemon from '../public/images/pokemon-ios.png';
+import thumbSwiggy from '../public/images/swiggy-ios.png';
+import thumbUber from '../public/images/uber.png';
+import thumbRive from '../public/images/rive.png';
 
 const Works = () => {
   return (
@@ -30,7 +30,8 @@ const Works = () => {
               title="Airbnb iOS Clone"
               thumbnail={thumbAirbnb}
             >
-              A beautiful Airbnb iOS clone with custom UI elements and smooth navigation.{' '}
+              A beautiful Airbnb iOS clone with custom UI elements and smooth
+              navigation.{' '}
               <Link
                 href="https://github.com/jatinfoujdar/Airbnb-iOS"
                 isExternal
@@ -108,7 +109,7 @@ const Works = () => {
         <Divider my={10} />
       </Container>
     </Layout>
-  )
-}
+  );
+};
 
-export default Works
+export default Works;

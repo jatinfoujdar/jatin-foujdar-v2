@@ -8,4 +8,3 @@ Welcome to Jatin's 3D website project! This project showcases a unique web exper
 - Built with Next.js for server-side rendering and optimized performance.
 - Utilizes Chakra UI for a modern and responsive design.
 - Includes global styles and utility functions for better code organization.
-
