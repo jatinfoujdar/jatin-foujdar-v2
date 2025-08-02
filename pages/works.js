@@ -76,22 +76,27 @@ const Works = () => {
             </WorkGridItem>
           </Section>
 
-          <Section>
-            <WorkGridItem
-              id="uber-ios"
-              title="Uber iOS Clone"
-              thumbnail={thumbUber}
-            >
-              Uber app clone with custom location handling and map features.{' '}
-              <Link
-                href="https://github.com/jatinfoujdar/uber-eats"
-                isExternal
-                color="teal.500"
-              >
-                GitHub
-              </Link>
-            </WorkGridItem>
-          </Section>
+            <Section>
+  <WorkGridItem
+    id="uber-ios"
+    title="Uber Web Clone"
+    thumbnail={thumbUber}
+  >
+    <Text color="gray.600">
+      Uber app clone with custom location handling and map features.
+    </Text>
+    <Link
+      href="https://github.com/jatinfoujdar/uber-eats"
+      isExternal
+      color="teal.500"
+      display="block"
+      mt={1}
+    >
+      GitHub
+      </Link>
+  </WorkGridItem>
+</Section>  
+
 
           <Section>
             <WorkGridItem
