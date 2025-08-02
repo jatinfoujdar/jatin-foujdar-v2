@@ -33,7 +33,7 @@ const Works = () => {
               A beautiful Airbnb iOS clone with custom UI elements and smooth
               navigation.{' '}
               <Link
-                href="https://github.com/jatinfoujdar/Airbnb-iOS"
+                href="https://github.com/jatinfoujdar/OYO-IOS"
                 isExternal
                 color="teal.500"
               >
@@ -83,8 +83,13 @@ const Works = () => {
               thumbnail={thumbUber}
             >
               Uber app clone with custom location handling and map features.{' '}
-              {/* Add GitHub link below if available */}
-              {/* <Link href="your-uber-link" isExternal color="teal.500">GitHub</Link> */}
+              <Link
+                href="https://github.com/jatinfoujdar/uber-eats"
+                isExternal
+                color="teal.500"
+              >
+                GitHub
+              </Link>
             </WorkGridItem>
           </Section>
 
