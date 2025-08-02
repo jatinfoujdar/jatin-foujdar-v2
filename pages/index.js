@@ -35,7 +35,7 @@ const Home = () => {
           mb={6}
           textAlign="center"
         >
-          Hello, I&apos;m a full-stack developer based in India!
+        Hey there! I&apos;m an iOS developer from India who loves turning ideas into smooth, user-friendly apps.
         </Box>
         <Box display={{ md: 'flex' }}>
           <Box flexGrow={1}>
