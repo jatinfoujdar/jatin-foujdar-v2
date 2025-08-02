@@ -107,29 +107,47 @@ const Home = () => {
           </BioSection>
         </Section>
 
-      <Section delay={0.5}>
-  <Heading as="h3" variant="section-title">
-    Experience
-  </Heading>
+ <Section delay={0.5}>
+    <Heading as="h3" variant="section-title" mb={4}>
+      Experience
+    </Heading>
 
-  <BioSection>
-    <BioYear>Jan – Apr 2025</BioYear>
-    Software Engineer Intern @ HackerRank (On-site)<br />
-    Worked on MVVM architecture and SDK integrations. Earned a HackerRank Skill Certificate.
-  </BioSection>
+    <Box mb={6}>
+      <Text fontWeight="bold" color="gray.500">
+        Jan – Apr 2025
+      </Text>
+      <Text fontSize="lg" fontWeight="semibold">
+        Software Engineer Intern @ HackerRank <Text as="span" fontWeight="normal" color="gray.500">(On-site)</Text>
+      </Text>
+      <Text color="gray.600">
+        Worked on MVVM architecture and SDK integrations. Earned a HackerRank Skill Certificate.
+      </Text>
+    </Box>
 
-  <BioSection>
-    <BioYear>Jun 2023 – Nov 2024</BioYear>
-    Frontend Developer @ DR DATATECH21 (Hybrid – Jaipur)<br />
-    Built a Training Tracker Web App, improved admin and user portals using ReactJS, Strapi, and Tailwind CSS.
-  </BioSection>
+    <Box mb={6}>
+      <Text fontWeight="bold" color="gray.500">
+        Jun 2023 – Nov 2024
+      </Text>
+      <Text fontSize="lg" fontWeight="semibold">
+        Frontend Developer @ DR DATATECH21 <Text as="span" fontWeight="normal" color="gray.500">(Hybrid – Jaipur)</Text>
+      </Text>
+      <Text color="gray.600">
+        Built a Training Tracker Web App; improved admin and user portals using ReactJS, Strapi, and Tailwind CSS.
+      </Text>
+    </Box>
 
-  <BioSection>
-    <BioYear>Nov 2022 – Feb 2023</BioYear>
-    Frontend Developer Intern @ iNeuron.ai (On-site – Bengaluru)<br />
-    Contributed to UI consistency across Stylework products and collaborated closely with design teams.
-  </BioSection>
-</Section>
+    <Box mb={6}>
+      <Text fontWeight="bold" color="gray.500">
+        Nov 2022 – Feb 2023
+      </Text>
+      <Text fontSize="lg" fontWeight="semibold">
+        Frontend Developer Intern @ iNeuron.ai <Text as="span" fontWeight="normal" color="gray.500">(On-site – Bengaluru)</Text>
+      </Text>
+      <Text color="gray.600">
+        Contributed to UI consistency across Stylework products and collaborated with design teams on feature delivery.
+      </Text>
+    </Box>
+  </Section>
 
 
         <Section delay={0.5}>
