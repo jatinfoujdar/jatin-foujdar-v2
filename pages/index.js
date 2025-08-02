@@ -9,6 +9,7 @@ import {
   List,
   ListItem,
   Icon,
+  Text
 } from '@chakra-ui/react';
 
 import NextLink from 'next/link';
