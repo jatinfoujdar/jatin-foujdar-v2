@@ -67,9 +67,12 @@ const Home = () => {
             Work
           </Heading>
           <Paragraph padding="10px">
-            I&apos;m a learner and always Ravenous for new Skills! I like building &
-            designing web apps, exploring scalability problems and improving
-            performance. I also love to create animations and illustrations.
+           
+            I&apos;m a passionate iOS developer and a constant learner,
+             always eager to pick up new skills. I enjoy building and designing sleek iOS apps,
+              exploring scalability challenges, and optimizing performance. 
+              I also love creating smooth animations and 
+              engaging UI illustrations that bring apps to life.
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="https://drive.google.com/file/d/1BaC76HM5CiPSac8K26GKkz5sfYA011CT/view?usp=sharing">
