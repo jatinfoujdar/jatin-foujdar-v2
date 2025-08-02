@@ -21,7 +21,7 @@ import {
   IoLogoTwitter,
   IoLogoLinkedin,
   IoLogoGithub,
-  IoLogoDiscord,
+  IoLogoInstagram
 } from 'react-icons/io5';
 
 const Home = () => {
@@ -179,11 +179,11 @@ const Home = () => {
             </ListItem>
 
             <ListItem>
-              <Link href="https://jatinfoujdar.hashnode.dev/" target="_blank">
+              <Link href="https://www.instagram.com/jatin_foujdar/" target="_blank">
                 <Button
                   variant="ghost"
                   colorScheme="teal"
-                  leftIcon={<Icon as={IoLogoDiscord} />}
+                  leftIcon={<Icon as={IoLogoInstagram} />}
                   top="5px"
                   left="10px"
                 >
