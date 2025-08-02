@@ -107,27 +107,27 @@ const Home = () => {
           </BioSection>
         </Section>
 
-        <Section delay={0.5}>
+      <Section delay={0.5}>
   <Heading as="h3" variant="section-title">
     Experience
   </Heading>
 
   <BioSection>
     <BioYear>Jan – Apr 2025</BioYear>
-    <strong>Software Engineer Intern</strong> @ HackerRank (On-site)<br />
-    Worked on MVVM architecture and SDK integrations. Earned HackerRank Skill Certificate.
+    Software Engineer Intern @ HackerRank (On-site)<br />
+    Worked on MVVM architecture and SDK integrations. Earned a HackerRank Skill Certificate.
   </BioSection>
 
   <BioSection>
     <BioYear>Jun 2023 – Nov 2024</BioYear>
-    <strong>Frontend Developer</strong> @ DR DATATECH21 (Hybrid – Jaipur)<br />
+    Frontend Developer @ DR DATATECH21 (Hybrid – Jaipur)<br />
     Built a Training Tracker Web App, improved admin and user portals using ReactJS, Strapi, and Tailwind CSS.
   </BioSection>
 
   <BioSection>
     <BioYear>Nov 2022 – Feb 2023</BioYear>
-    <strong>Frontend Developer Intern</strong> @ iNeuron.ai (On-site – Bengaluru)<br />
-    Supported UI consistency and worked on multiple Stylework product features.
+    Frontend Developer Intern @ iNeuron.ai (On-site – Bengaluru)<br />
+    Contributed to UI consistency across Stylework products and collaborated closely with design teams.
   </BioSection>
 </Section>
 
