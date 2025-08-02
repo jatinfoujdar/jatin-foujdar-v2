@@ -83,7 +83,7 @@ const Works = () => {
     title="Uber Web Clone"
     thumbnail={thumbUber}
   >
-    <Text color="gray.600">
+    <Text >
       Uber app clone with custom location handling and map features.
     </Text>
     <Link
