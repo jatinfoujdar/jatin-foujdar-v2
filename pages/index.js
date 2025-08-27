@@ -76,7 +76,7 @@ const Home = () => {
               engaging UI illustrations that bring apps to life.
           </Paragraph>
           <Box align="center" my={4}>
-            <NextLink href="https://drive.google.com/file/d/1BaC76HM5CiPSac8K26GKkz5sfYA011CT/view?usp=sharing">
+            <NextLink href="https://drive.google.com/file/d/1ZVufrntMofNbpkDw_vGPUFfsbsthgc-W/view?usp=sharing">
               <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
                 My Resume
               </Button>
@@ -112,6 +112,19 @@ const Home = () => {
     <Heading as="h3" variant="section-title" mb={4}>
       Experience
     </Heading>
+    
+    <Box mb={6}>
+      <Text fontWeight="bold" color="gray.500">
+        Aug 2025
+      </Text>
+      <Text fontSize="lg" fontWeight="semibold">
+        IOS Intern @ Swipe(YC-21) <Text as="span" fontWeight="normal" color="gray.500">(On-site)</Text>
+      </Text>
+      <Text color="gray.600">
+        Implemented and tested a new feature for Swipe’s iOS app using Swift, enhancing user experience and payment
+        functionality.
+      </Text>
+    </Box>
 
     <Box mb={6}>
       <Text fontWeight="bold" color="gray.500">
@@ -121,7 +134,7 @@ const Home = () => {
         Software Engineer Intern @ HackerRank <Text as="span" fontWeight="normal" color="gray.500">(On-site)</Text>
       </Text>
       <Text color="gray.600">
-        Worked on MVVM architecture and SDK integrations. Earned a HackerRank Skill Certificate.
+        Working and implemented scalable RESTful APIs using Node.js and Express.
       </Text>
     </Box>
 
@@ -171,7 +184,7 @@ const Home = () => {
           </Heading>
           <Paragraph>
             Basketball, Cricket, {''}
-            Drawing, Animation
+             Animation
           </Paragraph>
         </Section>
         <Section delay={0.3}>
@@ -231,7 +244,7 @@ const Home = () => {
                   top="5px"
                   left="10px"
                 >
-                 jatin_foujdar
+                 @jatin_foujdar
                 </Button>
               </Link>
             </ListItem>
