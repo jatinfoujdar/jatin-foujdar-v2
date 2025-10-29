@@ -178,6 +178,38 @@ const Home = () => {
           </BioSection>
         </Section>
 
+      <Section delay={0.5}>
+      <Heading as="h3" variant="section-title">
+        Published Apps on App Store
+      </Heading>
+    <BioSection>
+      
+      <a
+        href="https://apps.apple.com/app/prioritized-task/id6753984411"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ color: '#FFD700', textDecoration: 'none' }}
+      >
+        Prioritized Task
+      </a>
+      — A minimal To-Do app with a single screen where you can set reminders and customize background colors.
+    </BioSection>
+
+    <BioSection>
+      
+      <a
+        href="https://apps.apple.com/app/iconiclist/id6754238435"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ color: '#FFD700', textDecoration: 'none' }}
+      >
+        IconicList
+      </a>
+      — A detailed productivity app with colorful icons, widgets, and a dynamic task list for better organization.
+    </BioSection>
+  </Section>
+
+
         <Section delay={1}>
           <Heading as="h3" variant="section-title">
             I ♥
