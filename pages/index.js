@@ -102,8 +102,8 @@ const Home = () => {
             Institute of Graduate Studies
           </BioSection>
           <BioSection>
-            <BioYear>2023 - Present</BioYear>
-             Master&apos;s in Computer Applications at Manipal
+            <BioYear>2023</BioYear>
+            Currently Master&apos;s in Computer Applications at Manipal
             University Jaipur
           </BioSection>
         </Section>
