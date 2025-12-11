@@ -102,8 +102,8 @@ const Home = () => {
             Institute of Graduate Studies
           </BioSection>
           <BioSection>
-            <BioYear>2023</BioYear>
-            Currently Master&apos;s in Computer Applications at Manipal
+            <BioYear>2026</BioYear>
+            Master&apos;s in Computer Applications at Manipal
             University Jaipur
           </BioSection>
         </Section>
@@ -118,8 +118,8 @@ const Home = () => {
         Aug 2025
       </Text>
       <Text fontSize="lg" fontWeight="semibold">
-        IOS Intern @ Swipe(YC-21) <Text as="span" fontWeight="normal" color="gray.500">(On-site)</Text>
-      </Text>
+      IOS Intern @ Swipe(YC-21) <Text as="span" fontWeight="normal" color="gray.500">(On-site)</Text>
+     </Text>
       <Text color="gray.600">
         Implemented and tested a new feature for Swipe’s iOS app using Swift, enhancing user experience and payment
         functionality.
